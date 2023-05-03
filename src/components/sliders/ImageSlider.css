@@ -1,0 +1,46 @@
+.slider-container {
+  position: relative;
+  margin: 0;
+}
+
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.slider-nav > div {
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.slider-nav > div > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.slider-nav > div.active > img {
+  border-color: #007bff;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #007bff;
+}
+
+.slick-dots {
+  bottom: -25px;
+}
+
+.slick-dots li button:before {
+  color: #007bff;
+  font-size: 12px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #007bff;
+}

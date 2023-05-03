@@ -1,0 +1,21 @@
+.thank-you-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .thank-you-page h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .thank-you-page p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    max-width: 50ch;
+    margin-bottom: 1rem;
+  }
+  
